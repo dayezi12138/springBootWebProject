@@ -1,0 +1,11 @@
+server:
+  port: 8091
+---
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8092
+spring:
+  profiles: dev
